@@ -1,17 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Oculus</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
+  <body class="root">
+    <header class="header">
+      <div class="container">
+        <div class="header__menu-wrapper">
+          <ul class="header__menu-list">
+            <a class="header__link" href="#"><li class="header__menu-item">SHOP</li></a>
+            <a class="header__link" href="#"><li class="header__menu-item">GAMES</li></a>
+            <a class="header__link" href="#"><li class="header__menu-item">METAVERSE</li></a>
+          </ul>
+          <a class="header__logo logo" href="#">
+            <img class="header__logo-img" src="./images/Oculus_Quest_logo.png" alt="#" />
+          </a>
+          <button class="header__basket" type="button" aria-label="Basket"></button>
+        </div>
+      </div>
+    </header>
 
-  <script src="js/main.js"></script>
-</body>
+    <main class="content">
+      <section class="top-info">
+        <div class="top-info__wrapper container">
+          <div class="top-info__text">
+            <h1 class="top-info__title">Meta Quest 2</h1>
+            <p class="top-info__substr">Get an Elite Strap free</p>
+            <p class="top-info__undersubstr">
+              For a limited time only, save $59.99 USD. Offer ends 1/19/23
+            </p>
+          </div>
+          <div class="top-info__buttons">
+            <button class="top-info__button_buy button">BUY NOW</button>
+            <button class="top-info__button_price button">399,99 USD</button>
+          </div>
+          <div class="top-info__undersubstr">Meta Quest 2 is for ages 13+</div>
+        </div>
+      </section>
+
+      <section class="product-features">
+        <div class="product-features__wrapper container">
+          <div class="product-features__column-one">
+            <h2 class="column-one__title title">PRODUCT FEATURES</h2>
+            <ol class="column-one__list">
+              <a class="column-one__link" href="#"
+                ><li class="column-one__list-item">Graphics</li>
+              </a>
+              <a class="column-one__link" href="#"
+                ><li class="column-one__list-item">Controls</li>
+              </a>
+              <a class="column-one__link" href="#"
+                ><li class="column-one__list-item">Processor</li>
+              </a>
+              <a class="column-one__link" href="#"
+                ><li class="column-one__list-item">Set up your play area</li></a
+              >
+              <a class="column-one__link" href="#"
+                ><li class="column-one__list-item">Gardian activity</li>
+              </a>
+              <a class="column-one__link" href="#"
+                ><li class="column-one__list-item">Headset casting</li>
+              </a>
+            </ol>
+          </div>
+
+          <div class="product-features__column-two">
+            <h3 class="column-two__title gradient-title">Easy to set up and safe to use</h3>
+            <img src="./images/pf1.jpg" alt="#" class="column-two__image" />
+          </div>
+
+          <div class="product-features__column-three">
+            <h3 class="column-three__title">Graphics</h3>
+            <div class="column-three__text">
+              With 1832 x 1920 pixels per eye, everything from multiplayer games and productivity
+              apps to 360 0 videos look beyond incredible
+            </div>
+
+            <iframe
+              class="video__iframe"
+              src="https://www.youtube.com/embed/WeIb3IK4f74"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="games">
+        <div class="games__wrapper container">
+          <div class="games__text-block">
+            <h2 class="games__title title">GAMES</h2>
+            <h3 class="games__subtitle gradient-title">It’s all fun and games</h3>
+            <div class="games__text">
+              Discover new adventures, master epic challenges or revisit classic moments in your
+              favourite games and experiences
+            </div>
+            <button class="games__button button">SEE ALL GAMES</button>
+          </div>
+
+          <div class="games__items-block">
+            <div class="items-block__item item">
+              <img class="items-block__img" src="./images/games_item1.jpg" alt="#" />
+              <h3 class="items-block__title">Blade & Sorcery: Nomad</h3>
+              <p class="items-block__text">
+                Step into a medieval fantasy sandbox that uses phisics to serve up some of the most
+                realistic combat in VR
+              </p>
+              <button class="items-block__button">see more</button>
+            </div>
+
+            <div class="items-block__item item">
+              <img class="items-block__img" src="./images/games_item3.jpg" alt="#" />
+              <h3 class="items-block__title">Supernatural</h3>
+              <p class="items-block__text">
+                Box, Flow, Meditate and Stretch with real coaches in stunning destinations from
+                around the world. Enjoy new workouts every day.
+              </p>
+              <button class="items-block__button">see more</button>
+            </div>
+
+            <div class="items-block__item item">
+              <img class="items-block__img" src="./images/games_item2.jpg" alt="#" />
+              <h3 class="items-block__title">Population: One</h3>
+              <p class="items-block__text">
+                Climb anything. Fight everywhere. Experience battle royale only possible in VR
+              </p>
+              <button class="items-block__button">see more</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="big-title">
+        <img src="./images/oculus_glasses.png" alt="#" class="big-title__image" />
+        <div class="big-title__buttons">
+          <button class="big-title__button_buy button">BUY NOW</button>
+          <button class="big-title__button_price button">399,99 USD</button>
+        </div>
+        <div class="big-title__undersubstr">Meta Quest 2 is for ages 13+</div>
+      </div>
+
+      <section class="in-box">
+        <div class="container">
+          <h2 class="in-box__title title">IN THE BOX</h2>
+
+          <div class="in-box__grid">
+            <div class="in-box__grid-item">
+              <img src="./images/inbox1.png" alt="#" class="in-box__grid-item_img" />
+              <p class="in-box__grid-item_title">VR Headset</p>
+            </div>
+            <div class="in-box__grid-item">
+              <img src="./images/inbox2.png" alt="#" class="in-box__grid-item_img" />
+              <p class="in-box__grid-item_title">Two Touch Controllers & AA Batteries</p>
+            </div>
+            <div class="in-box__grid-item">
+              <p class="gradient-title">What's included</p>
+            </div>
+            <div class="in-box__grid-item">
+              <img src="./images/inbox3.png" alt="#" class="in-box__grid-item_img" />
+              <p class="in-box__grid-item_title">Charging Cable & Power Adapter</p>
+            </div>
+            <div class="in-box__grid-item">
+              <img src="./images/inbox4.png" alt="#" class="in-box__grid-item_img" />
+              <p class="in-box__grid-item_title">Glasses Spacer</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="go-block">
+        <div class="container go-block__wrapper">
+          <p class="go-block__text">METAVERSE LOADING…</p>
+          <button class="button go-block__button button-round">go</button>
+        </div>
+      </div>
+
+      <section class="accessories">
+        <div class="container">
+          <h2 class="accessories__title title">accessories</h2>
+          <p class="accessories__subtitle gradient-title">Personalize every experience</p>
+          <div class="accessories__wrapper">
+            <div class="accessories__item item">
+              <img src="./images/accessories1.jpg" alt="#" class="accessories__item-img" />
+              <h3 class="accessories__item-title">Meta Quest 2 Carrying Case</h3>
+              <p class="accessories__item-text">Protect your system–at home or away.</p>
+              <p class="accessories__item-price">$59.99 USD</p>
+              <button class="accessories__item-button button">BUY NOW</button>
+            </div>
+
+            <div class="accessories__item item">
+              <img src="./images/accessories2.jpg" alt="#" class="accessories__item-img" />
+              <h3 class="accessories__item-title">Link Cable</h3>
+              <p class="accessories__item-text">
+                Harness the power of your PC with this premium fiber-optic cable.
+              </p>
+              <p class="accessories__item-price">$79.99 USD</p>
+              <button class="accessories__item-button button">BUY NOW</button>
+            </div>
+
+            <div class="accessories__item item">
+              <img src="./images/accessories3.jpg" alt="#" class="accessories__item-img" />
+              <h3 class="accessories__item-title">Meta Quest 2 Active Pack</h3>
+              <p class="accessories__item-text">
+                A wipeable facial interface, wrist straps, and knuckle straps.
+              </p>
+              <p class="accessories__item-price">$69.99 USD</p>
+              <button class="accessories__item-button button">BUY NOW</button>
+            </div>
+
+            <div class="accessories__item item">
+              <img src="./images/accessories4.jpg" alt="#" class="accessories__item-img" />
+              <h3 class="accessories__item-title">Meta Quest Gift Cards</h3>
+              <p class="accessories__item-text">Redeemable on 350+ games and apps.</p>
+              <p class="accessories__item-price">$15-50 USD</p>
+              <button class="accessories__item-button button">BUY NOW</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="news-updates">
+        <div class="container news-updates__wrapper">
+          <div class="news-updates__text-block">
+            <h2 class="news-updates__title">Get news and updates</h2>
+            <div class="news-updates__email">
+              <input type="email" class="email__input" placeholder="E-mail" />
+              <button class="news-updates__email-button button-round">go</button>
+            </div>
+            <div class="news-updates__text">
+              By signing up you agree to receive updates and marketing messages (e.g. email, social,
+              etc.) from Meta about Meta’s existing and future products and services. You may
+              withdraw your consent and unsubscribe at any time by clicking the unsubscribe link
+              included in our messages. Your subscription is subject to the Terms and Privacy
+              Policy.
+            </div>
+          </div>
+          <p class="news-updates__email-address">
+            oculusshop@gmail.com
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__menu-wrapper">
+          <ul class="footer__menu-list">
+            <a class="footer__link" href="#"><li class="footer__menu-item">SHOP</li></a>
+            <a class="footer__link" href="#"><li class="footer__menu-item">GAMES</li></a>
+            <a class="footer__link" href="#"><li class="footer__menu-item">METAVERSE</li></a>
+            <a class="footer__link" href="#"><li class="footer__menu-item">CONTACT US</li></a>
+          </ul>
+          <a class="footer__logo logo" href="#">
+            <img class="footer__logo-img" src="./images/Oculus_Quest_logo.png" alt="#" />
+          </a>
+          <div class="footer__social-icons">
+            <a href="#" class="footer__youtube-link"><img src="./images/yout.svg" alt="" class="footer__icon"></a>
+            <a href="#" class="footer__facebook-link"><img src="./images/face.svg" alt="" class="footer__icon"></a>
+            <a href="#" class="footer__instagram-link"><img src="./images/inst.svg" alt="" class="footer__icon"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
 </html>
