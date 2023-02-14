@@ -11,8 +11,8 @@
 
   <body class="root">
     <header class="header">
-      <div class="container">
-        <div class="header__menu-wrapper">
+      <div class="container header__menu-wrapper">
+
           <ul class="header__menu-list">
             <a class="header__link" href="#"><li class="header__menu-item">SHOP</li></a>
             <a class="header__link" href="#"><li class="header__menu-item">GAMES</li></a>
@@ -21,28 +21,31 @@
           <a class="header__logo logo" href="#">
             <img class="header__logo-img" src="./images/Oculus_Quest_logo.png" alt="#" />
           </a>
-          <button class="header__basket" type="button" aria-label="Basket"></button>
+          <div class="header__basket-wrap">
+            <button class="header__basket" type="button" aria-label="Basket"></button>
+          </div>
+
         </div>
-      </div>
+
     </header>
 
     <main class="content">
-      <section class="top-info">
-        <div class="top-info__wrapper container">
-          <div class="top-info__text">
-            <h1 class="top-info__title">Meta Quest 2</h1>
-            <p class="top-info__substr">Get an Elite Strap free</p>
-            <p class="top-info__undersubstr">
-              For a limited time only, save $59.99 USD. Offer ends 1/19/23
-            </p>
+        <section class="top-info">
+          <div class="top-info__wrapper container">
+            <div class="top-info__text">
+              <h1 class="top-info__title">Meta Quest 2</h1>
+              <p class="top-info__substr">Get an Elite Strap free</p>
+              <p class="top-info__undersubstr">
+                For a limited time only, save $59.99 USD. Offer ends 1/19/23
+              </p>
+            </div>
+            <div class="top-info__buttons">
+              <button class="top-info__button_buy button">BUY NOW</button>
+              <button class="top-info__button_price button">399,99 USD</button>
+            </div>
+            <div class="top-info__undersubstr">Meta Quest 2 is for ages 13+</div>
           </div>
-          <div class="top-info__buttons">
-            <button class="top-info__button_buy button">BUY NOW</button>
-            <button class="top-info__button_price button">399,99 USD</button>
-          </div>
-          <div class="top-info__undersubstr">Meta Quest 2 is for ages 13+</div>
-        </div>
-      </section>
+        </section>
 
       <section class="product-features">
         <div class="product-features__wrapper container">
